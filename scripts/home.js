@@ -21,13 +21,6 @@ loadProducts(filtroMaisVendidos,sectionMaisVendidos);
 loadProducts(filtroPromocoes,sectionPromocoes);
 getProdId()
 
-
-
-
-
-
-
-
 // ------- carrousel de imagens home -------------------
 
 document.querySelectorAll('.section-product').forEach( carrousel => {
@@ -53,3 +46,22 @@ prevBtn.addEventListener('click', () => {
   productCarousel.style.transform = `translateX(-${scrollAmount}px)`;
 });
 })
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.banner img');
+const totalSlides = slides.length;
+
+function showSlide(index) {
+  currentSlide = (index + totalSlides) % totalSlides;
+  const offset = -currentSlide * 100; 
+  document.querySelector('.banner').style.transform = `translateX(${offset}%)`;
+}
+
+function moveSlide(direction) {
+  showSlide(currentSlide + direction);
+}
+
+// Slide automático
+setInterval(() => {
+  moveSlide(1);
+}, 3000); 

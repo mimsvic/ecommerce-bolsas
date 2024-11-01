@@ -1,11 +1,13 @@
 /* Escreva seu codigo css aqui */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
 }
+/*Start - HEADER*/
 
 .HeaderInfos{
     display: flex;
@@ -20,10 +22,156 @@
     color: white;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 20px;
+    margin-bottom: 1%;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.HeaderPesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.Logo {
+    width: 180px;
+    height: auto;
+}
+
+.BarraDePesquisa {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+}
+
+.BarraDePesquisa input {
+    width: 100%;
+    max-width: 300px; 
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: #E7ECFF;
+}
+
+.IconesPesquisa {
+    display: flex;
+    gap: 15px;
+}
+
+.IconesPesquisa img {
+    width: 40px;
+    height: 40px;
+}
+/*End - HEADER*/
+
+/*Start - SLIDER*/
+
+.slider {
+    width: 100%;
+    max-width: 800px; 
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  
+  .banner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .banner img {
+    width: 100%; 
+    flex-shrink: 0;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+/*End - SLIDER*/ 
+
+/*Start - Ofertas*/
+  
+.Ofertas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.Oferta {
+    text-align: center;
+}
+
+.Oferta img {
+    width: 260px;
+    height: 200px;
+    object-fit: cover; 
+}
+
+/*End - Ofertas*/
+
+/*Start - BANNER*/
+.bannerCar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.bannerCar img{
+    width: 63%;
+    height: 275px;
+}
+
+/*End - BANNER*/
+
+/*Start - CATALOGO*/
+#novidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 30px;
+}
 
 
-
-
+/*End - CATALOGO*/
 
 
 /* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
