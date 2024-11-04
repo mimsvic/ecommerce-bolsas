@@ -19,30 +19,76 @@ loadProducts(filtroPromocoes, sectionPromocoes);
 getProdId();
 
 // ------- Carrousel de produtos (Seção Novidades) -------------------
-const productCarousel = document.querySelector('#section-1 .carrousel');
-const prevBtn = document.querySelector('#section-1 .prev');
-const nextBtn = document.querySelector('#section-1 .next');
+const productCarousel1 = document.querySelector('#section-1 .carrousel');
+const prevBtn1 = document.querySelector('#section-1 .prev');
+const nextBtn1 = document.querySelector('#section-1 .next');
 
-let scrollAmount = 0;
+let scrollAmount1 = 0;
 const cardWidth = 270; // Ajuste para a largura do card
 
-nextBtn.addEventListener('click', () => {
-  scrollAmount += cardWidth; // Avança um card
-  if (scrollAmount > productCarousel.scrollWidth - productCarousel.parentElement.offsetWidth) {
-    scrollAmount = productCarousel.scrollWidth - productCarousel.parentElement.offsetWidth;
+nextBtn1.addEventListener('click', () => {
+  scrollAmount1 += cardWidth; // Avança um card
+  if (scrollAmount1 > productCarousel1.scrollWidth - productCarousel1.parentElement.offsetWidth) {
+    scrollAmount1 = productCarousel1.scrollWidth - productCarousel1.parentElement.offsetWidth;
   }
-  productCarousel.style.transform = `translateX(-${scrollAmount}px)`;
+  productCarousel1.style.transform = `translateX(-${scrollAmount1}px)`;
 });
 
-prevBtn.addEventListener('click', () => {
-  scrollAmount -= cardWidth; // Retrocede um card
-  if (scrollAmount < 0) {
-    scrollAmount = 0;
+prevBtn1.addEventListener('click', () => {
+  scrollAmount1 -= cardWidth; // Retrocede um card
+  if (scrollAmount1 < 0) {
+    scrollAmount1 = 0;
   }
-  productCarousel.style.transform = `translateX(-${scrollAmount}px)`;
+  productCarousel1.style.transform = `translateX(-${scrollAmount1}px)`;
 });
 
-// Slide automático (caso queira implementar para a seção de Novidades)
+// ------- Carrousel de produtos (Seção Mais Vendidos) -------------------
+const productCarousel2 = document.querySelector('#section-2 .carrousel');
+const prevBtn2 = document.querySelector('#section-2 .prev');
+const nextBtn2 = document.querySelector('#section-2 .next');
+
+let scrollAmount2 = 0;
+
+nextBtn2.addEventListener('click', () => {
+  scrollAmount2 += cardWidth; // Avança um card
+  if (scrollAmount2 > productCarousel2.scrollWidth - productCarousel2.parentElement.offsetWidth) {
+    scrollAmount2 = productCarousel2.scrollWidth - productCarousel2.parentElement.offsetWidth;
+  }
+  productCarousel2.style.transform = `translateX(-${scrollAmount2}px)`;
+});
+
+prevBtn2.addEventListener('click', () => {
+  scrollAmount2 -= cardWidth; // Retrocede um card
+  if (scrollAmount2 < 0) {
+    scrollAmount2 = 0;
+  }
+  productCarousel2.style.transform = `translateX(-${scrollAmount2}px)`;
+});
+
+// ------- Carrousel de produtos (Seção Mais Vendidos) -------------------
+const productCarousel3 = document.querySelector('#section-3 .carrousel');
+const prevBtn3 = document.querySelector('#section-3 .prev');
+const nextBtn3 = document.querySelector('#section-3 .next');
+
+let scrollAmount3 = 0;
+
+nextBtn3.addEventListener('click', () => {
+  scrollAmount3 += cardWidth; // Avança um card
+  if (scrollAmount3 > productCarousel3.scrollWidth - productCarousel3.parentElement.offsetWidth) {
+    scrollAmount3 = productCarousel3.scrollWidth - productCarousel3.parentElement.offsetWidth;
+  }
+  productCarousel3.style.transform = `translateX(-${scrollAmount3}px)`;
+});
+
+prevBtn3.addEventListener('click', () => {
+  scrollAmount3 -= cardWidth; // Retrocede um card
+  if (scrollAmount3 < 0) {
+    scrollAmount3 = 0;
+  }
+  productCarousel3.style.transform = `translateX(-${scrollAmount3}px)`;
+});
+
+// Slide automático (caso ainda queira usar)
 let currentSlide = 0;
 const slides = document.querySelectorAll('.banner img');
 const totalSlides = slides.length;
