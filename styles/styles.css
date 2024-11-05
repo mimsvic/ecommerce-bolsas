@@ -369,6 +369,11 @@ button.prev:hover, button.next:hover {
   }
 /*End - FOOTER*/
 
+.grid_col_1 img{
+    width: 80%;
+    height: 80%;
+}
+
 /* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
 
 .container-flex {
@@ -398,12 +403,11 @@ button.prev:hover, button.next:hover {
     font-size: 0.875em;
     font-weight: 700;
     line-height: 1.5em;
-
 }
 
 .text-container {
     padding: 12px 32px;
-    background-color: chartreuse; 
+    background-color: white; 
     border-radius: 15px;
 }
 
@@ -525,7 +529,6 @@ button.prev:hover, button.next:hover {
   .grid_col_1 {
     grid-area: col1;
     padding:25px
-   
 }
 
 .grid_col_2 {
@@ -651,7 +654,7 @@ button.prev:hover, button.next:hover {
 }
 
 .quantity input{
-    border:1px solid blueviolet;
+    border:1px solid #000;
     border-radius: 5px;
     padding:4px 8px;
     width: 100%;
@@ -660,15 +663,15 @@ button.prev:hover, button.next:hover {
 
 .shop_btn {
     padding: 16px 32px;
-    color: darkcyan;
+    color: white;
     border-radius: 5px;
     border: none;
     text-transform: uppercase;
-    background-color: darkgreen;
+    background-color: #000;
 }
 
 .freight_container {
-    border: 1px solid blue;
+    border: 1px solid #000;
     padding: 8px 16px;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -687,7 +690,7 @@ button.prev:hover, button.next:hover {
 }
 
 .freight_container form input[type="text"]{
-    border:1px solid chocolate;
+    border:1px solid #000;
     border-radius: 5px;
     padding:4px 8px;
     width: 100%;
@@ -695,10 +698,10 @@ button.prev:hover, button.next:hover {
 
 
 
- .button {
+ .container-flex button {
     padding:4px 8px;
-    color: darkslateblue;
-    background-color: forestgreen; 
+    color: white;
+    background-color: #000; 
     border: none;
     border-radius: 5px;
 
@@ -706,13 +709,13 @@ button.prev:hover, button.next:hover {
 
  .freight_container p a {
     text-decoration: none;
-    color: coral; 
+    color: #000; 
     font-size: 12px;
  }
 
  .freight_pricing {
     background-color: #E7ECFF;
-    border: 1px solid indigo;
+    border: 1px solid #000;
     padding: 16px 16px;
     border-radius: 5px;
     justify-content: flex-start;
@@ -734,20 +737,17 @@ button.prev:hover, button.next:hover {
     
 }
 
+.freight_pricing:nth-child(3){
+    background-color: #ffffff;
+   
+}
+
 .freight_pricing:nth-child(4){
-    background-color: #EAFFE7;
+    background-color: #ffffff;
    
 }
 
-.freight_pricing:nth-child(5){
-    background-color: #FFFDE7;
-   
-}
 
-.freight_pricing:nth-child(6){
-    background-color: #FFF2E7;
-   
-}
 
 .product.text-container p {
     font-size: 0.875em;
