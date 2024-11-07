@@ -1,60 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">  
-  <!-- Links -->
-  <title>Belai Veículos</title>
-    <script type="module" src="./scripts/home.js" defer></script>
+<html lang="pt-br">
+  <head>
+    <title>Belai Veículos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./scripts/product.js" defer></script>
     <link rel="shortcut icon" type="imagex/png" href="./images/car.png">
-  <!-- Links -->
+  </head>
 
-  <div class="HeaderInfos">
-    <p>Campinas - SP</p>
-    <p>Localização - Av. John Boyd Dunlop, 858</p>
-    <p>Precisa de ajuda?</p>
-  </div>
+  <body>
+    <header>
+      <div class="HeaderInfos">
+        <p>Campinas - SP</p>
+        <p>Localização - Av. John Boyd Dunlop, 858</p>
+        <p>Precisa de ajuda?</p>
+      </div>
 
-  <div class="HeaderPesquisa">
-    <a href="index.html">
-      <img src="./images/logoBLV.jpg" class="Logo"/>
-    </a>
+      <div class="HeaderPesquisa">
+        <a href="index.html">
+          <img src="./images/logoBLV.jpg" class="Logo"/>
+        </a>
 
-    <div class="BarraDePesquisa">
-      <input type="text" name="search" id="search" placeholder="Qual o Carro dos seus Sonhos?" />
-    </div>
+        <div class="BarraDePesquisa">
+          <input type="text" name="search" id="search" placeholder="Qual o Carro dos seus Sonhos?" />
+        </div>
 
-    <div class="IconesPesquisa">
-      <img src="./images/coracaoLogo.png" alt="Coração" />
-      <img src="./images/perfil-de-usuario.png" alt="Perfil" />
-      <img src="./images/carrinho.png" alt="Carrinho" />
-    </div>
-  </div>
+        <div class="IconesPesquisa">
+          <img src="./images/coracaoLogo.png" alt="Coração" />
+          <img src="./images/perfil-de-usuario.png" alt="Perfil" />
+          <a href="checkout.html">
+            <img src="./images/carrinho.png" alt="Carrinho" />
+          </a>
+        </div>
+      </div>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="checkout.html">Checkout</a>
-    <a href="adm.html">Adm</a>
-    <a href="products.html">Products</a>
-  </nav>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="adm.html">Adm</a>
+        <a href="products.html">Products</a>
+      </nav>
+    </header>
 
-
-<!-- Componente Pagina individual de Produtos -->
     <main class="product main-content container">
       <h2 class="product text-container page-title-small" id="product-category"></h2>
       <div class="product text-container" id="product-title">
-        <h3 class="product main-text">Nissan Kicks 2019 - Semi Novo (23.763 KM)</h3>
+        <h4>COD: 12345</h4>
+        <h3 class="product main-text">Furadeira e Parafusadeira a Bateria Smart Bosch com Carregador 10 Bits e Extensor Universal 12V 1/4" GSR 1000 Bivolt</h3>
       </div>
       <section class="product text-container">
         <div id="product_page">
           <div class="grid_col_1">
-            <img src="images/ofertaCar1.png"/>
           </div>
 
           <div class="grid_col_2">
             <div class="product_price_container">
-              <h2>R$ 98.930,00</h2>
-              <h5>Ou em ate 48x de R$ 2.062,00 s/juros no Boleto</h5>
+              <h2>R$ 399,00</h2>
+              <h5>Ou em ate 10x sem juros de R$ 39,90 no cartão de credito</h5>
               <div class="quantity">
                 <input type="number" name="quantity" id="quantity" value="1">
                 <button class="shop_btn">comprar</button>
@@ -70,7 +72,8 @@
                   <button class="freight_ok">ok</button>
                 </div>
                
-                 <p><a href="https://www.buscacep.correios.com.br/">Não sei meu cep</a></p> 
+                 <p><a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não sei meu cep</a></p> 
+               
               </form>
             </div>
 
@@ -79,9 +82,8 @@
                 <input type="radio" name="" id="">
               </div>
               <div class="pricing">
-                <h3>R$ 93.983,50</h3>
-                <p>À vista Com 5% de Desconto</p>
-                <p>Entrega em até 20 dias</p>
+                <h3>48x de R$ 2.062,00</h3>
+                <p>Entrega em até 45 dias uteis</p>
               </div>
             </div>
 
@@ -90,49 +92,72 @@
                 <input type="radio" name="" id="">
               </div>
               <div class="pricing">
-                <h3>R$ 98.930,00</h3>
-                <p>48x de R$ 2.062,00 s/juros no Boleto</p>
-                <p>Entrega em até 45 dias</p>
+                <h3>À vista R$ 89.000,00</h3>
+                <p>Entrega em até 20 dias uteis</p>
               </div>
             </div>
           </div>
+
         </div>
+        
       </section>
+
     </main>
-    <div class="Footer">
-      <div class="FooterSection">
-          <h3>Institucional</h3>
-          <ul>
-              <li><a href="#">Sobre Nós</a></li>
-              <li><a href="#">Fale Conosco</a></li>
-              <li><a href="#">Política de Troca</a></li>
-              <li><a href="#">Política de Privacidade</a></li>
-              <li><a href="#">Política de Envio</a></li>
-          </ul>
+
+    <footer>
+      <div class="Infos">
+        <div class="InfoBox">     
+          <h2>Meios de Pagamento</h2>
+          <p>Parcelamos sua compra em até 48x sem juros em todos os cartões de crédito ou com até 5% de desconto à vista.</p>
+        </div>
+        <div class="InfoBox">
+          <h2>Nossos Contatos</h2>
+          <p>Cobertura em Todo o Território Nacional! Não importa onde você esteja.</p>
+          <p>(19)99999-9999</p>
+        </div>
+        <div class="InfoBox">
+          <h2>Atendimento</h2>
+          <p>Loja física Aberta das 08:00 às 20:00 Segunda a Sexta</p>
+          <p>(19)99999-9999</p>
+        </div>
       </div>
-  
-      <div class="FooterSection">
-          <h3>Ajuda</h3>
-          <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Termos de Uso</a></li>
-              <li><a href="#">Suporte</a></li>
-          </ul>
-      </div>
-  
-      <div class="FooterSection social">
-          <h3>Siga nossas redes sociais</h3>
-          <p>Acompanhe as novidades pelas nossas redes sociais</p>
-          <div class="social-icons">
-              <img src="images/facebook.png" alt="Facebook">
-              <img src="images/instagram.png" alt="Instagram">
-              <img src="images/whatsapp.png" alt="TikTok">
-          </div>
-      </div>
-  </div>
-  
-  
-    <div class="DireitosReservados">
-      <p>© Campinas, SP - 2024 Leonardo Albergoni Viana - Todos os direitos reservados.</p>
+
+      <div class="Footer">
+        <div class="FooterSection">
+            <h3>Institucional</h3>
+            <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">Política de Troca</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Política de Envio</a></li>
+            </ul>
+        </div>
+
+        <div class="FooterSection">
+            <h3>Ajuda</h3>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </div>
+
+        <div class="FooterSection social">
+            <h3>Siga nossas redes sociais</h3>
+            <p>Acompanhe as novidades pelas nossas redes sociais</p>
+            <div class="social-icons">
+                <img src="images/facebook.png" alt="Facebook">
+                <img src="images/instagram.png" alt="Instagram">
+                <img src="images/whatsapp.png" alt="TikTok">
+            </div>
+        </div>
     </div>
-</html>    
+
+
+      <div class="DireitosReservados">
+        <p>© Campinas, SP - 2024 Leonardo Albergoni Viana - Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

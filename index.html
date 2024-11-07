@@ -1,434 +1,439 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <!-- Links -->
-  <title>Belai Veículos</title>
-    <script type="module" src="./scripts/home.js" defer></script>
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="imagex/png" href="./images/car.png">
-  <!-- Links -->
+   <head>
+    <title>Belai Veículos</title>
+      <script type="module" src="./scripts/home.js" defer></script>
+      <link rel="stylesheet" href="./styles/styles.css" />
+      <meta charset="UTF-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" type="imagex/png" href="./images/car.png">
+    <!-- Links -->
+  </head>
 
-  <div class="HeaderInfos">
-    <p>Campinas - SP</p>
-    <p>Localização - Av. John Boyd Dunlop, 858</p>
-    <p>Precisa de ajuda?</p>
-  </div>
+  <body>
+      <div class="HeaderInfos">
+        <p>Campinas - SP</p>
+        <p>Localização - Av. John Boyd Dunlop, 858</p>
+        <p>Precisa de ajuda?</p>
+      </div>
 
-  <div class="HeaderPesquisa">
-    <a href="index.html">
-      <img src="./images/logoBLV.jpg" class="Logo"/>
-    </a>
+      <div class="HeaderPesquisa">
+        <a href="index.html">
+          <img src="./images/logoBLV.jpg" class="Logo"/>
+        </a>
 
-    <div class="BarraDePesquisa">
-      <input type="text" name="search" id="search" placeholder="Qual o Carro dos seus Sonhos?" />
-    </div>
+        <div class="BarraDePesquisa">
+          <input type="text" name="search" id="search" placeholder="Qual o Carro dos seus Sonhos?" />
+        </div>
 
-    <div class="IconesPesquisa">
-      <img src="./images/coracaoLogo.png" alt="Coração" />
-      <img src="./images/perfil-de-usuario.png" alt="Perfil" />
-      <img src="./images/carrinho.png" alt="Carrinho" />
-    </div>
-  </div>
+        <div class="IconesPesquisa">
+          <img src="./images/coracaoLogo.png" alt="Coração" />
+          <img src="./images/perfil-de-usuario.png" alt="Perfil" />
+          <a href="checkout.html">
+            <img src="./images/carrinho.png" alt="Carrinho" />
+          </a>
+        </div>
+      </div>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="checkout.html">Checkout</a>
-    <a href="adm.html">Adm</a>
-    <a href="products.html">Products</a>
-  </nav>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="adm.html">Adm</a>
+        <a href="products.html">Products</a>
+      </nav>
 
-  <div class="slider">
-    <div class="banner">
-      <img src="images/sliderCarro1.jpg" />
-      <img src="images/sliderCarro2.jpg" />
-      <img src="images/sliderCarro3.jpg" />
-      <img src="images/sliderCarro4.jpg" />
-      <img src="images/sliderCarro5.jpg" />
-      <img src="images/sliderCarro6.jpg" />
-      <img src="images/sliderCarro7.jpg" />
-      <img src="images/sliderCarro8.jpg" />
-    </div>
-  </div>
+      <div class="slider">
+        <div class="banner">
+          <img src="images/sliderCarro1.jpg" />
+          <img src="images/sliderCarro2.jpg" />
+          <img src="images/sliderCarro3.jpg" />
+          <img src="images/sliderCarro4.jpg" />
+          <img src="images/sliderCarro5.jpg" />
+          <img src="images/sliderCarro6.jpg" />
+          <img src="images/sliderCarro7.jpg" />
+          <img src="images/sliderCarro8.jpg" />
+        </div>
+      </div>
 
-  <div class="Ofertas">
-    <div class="Oferta">
-      <img src="images/ofertaCar1.png" alt="Oferta 1"/>
-      <p>Ofertas</p>
-    </div>
-    <div class="Oferta">
-      <img src="images/ofertaCar2.png" alt="Oferta 2"/>
-      <p>Ofertas</p>
-    </div>
-    <div class="Oferta">
-      <img src="images/ofertaCar3.png" alt="Oferta 3"/>
-      <p>Ofertas</p>
-    </div>
-    <div class="Oferta">
-      <img src="images/ofertaCar4.png" alt="Oferta 4"/>
-      <p>Ofertas</p>
-    </div>
-  </div>
+      <div class="Ofertas">
+        <div class="Oferta">
+          <img src="images/ofertaCar1.png" alt="Oferta 1"/>
+          <p>Ofertas</p>
+        </div>
+        <div class="Oferta">
+          <img src="images/ofertaCar2.png" alt="Oferta 2"/>
+          <p>Ofertas</p>
+        </div>
+        <div class="Oferta">
+          <img src="images/ofertaCar3.png" alt="Oferta 3"/>
+          <p>Ofertas</p>
+        </div>
+        <div class="Oferta">
+          <img src="images/ofertaCar4.png" alt="Oferta 4"/>
+          <p>Ofertas</p>
+        </div>
+      </div>
 
-  <div class="bannerCar">
-    <img src="images/bannerCarro2.jpg"/>
-  </div>
+      <div class="bannerCar">
+        <img src="images/bannerCarro2.jpg"/>
+      </div>
 
-  <h1 id="novidades">Novidades</h1>
+      <h1 id="novidades">Novidades</h1>
 
-  <!-- Componente Carrousel de Produtos -->
-  <section id="section-1" class="section-product-carrousel">
-    <button class="prev">&laquo;</button>
-    <div class="carrousel">
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 1">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 2">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 3">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 4">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 5">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 6">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 7">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 8">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 9">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 10">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-    </div>
-    <button class="next">&raquo;</button>
-  </section>
+      <!-- Componente Carrousel de Produtos -->
+      <section id="section-1" class="section-product-carrousel">
+        <button class="prev">&laquo;</button>
+        <div class="carrousel">
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 1">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 2">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 3">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 4">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 5">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 6">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 7">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 8">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 9">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 10">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+        </div>
+        <button class="next">&raquo;</button>
+      </section>
 
-  <div class="bannerCar">
-    <img src="images/bannerCarro3.jpg"/>
-  </div>
+      <div class="bannerCar">
+        <img src="images/bannerCarro3.jpg"/>
+      </div>
 
-  <h1 id="novidades">Mais Vendidos</h1>
+      <h1 id="novidades">Mais Vendidos</h1>
 
-  <!-- Componente Carrousel de Produtos -->
-  <section id="section-2" class="section-product-carrousel">
-    <button class="prev">&laquo;</button>
-    <div class="carrousel">
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 1">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 2">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 3">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 4">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 5">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 6">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 7">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 8">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 9">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 10">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-    </div>
-    <button class="next">&raquo;</button>
-  </section>
+      <!-- Componente Carrousel de Produtos -->
+      <section id="section-2" class="section-product-carrousel">
+        <button class="prev">&laquo;</button>
+        <div class="carrousel">
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 1">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 2">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 3">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 4">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 5">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 6">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 7">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 8">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 9">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 10">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+        </div>
+        <button class="next">&raquo;</button>
+      </section>
 
-  <h1 id="novidades">Promoções</h1>
+      <h1 id="novidades">Promoções</h1>
 
-  <!-- Componente Carrousel de Produtos -->
-  <section id="section-3" class="section-product-carrousel">
-    <button class="prev">&laquo;</button>
-    <div class="carrousel">
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 1">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 2">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 3">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 4">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 5">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 6">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 7">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 8">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar1.png" alt="Produto 9">
-        <h3>Nissan Kicks 2019</h3>
-        <p class="preco">R$ 98.930,00</p>
-        <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-      <div class="card">
-        <img src="images/ofertaCar3.png" alt="Produto 10">
-        <h3>Honda City 2024</h3>
-        <p class="preco">R$ 139.760,00</p>
-        <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
-        <a href="./product.html">
-          <button class="comprar">COMPRAR</button>
-        </a>
-      </div>
-    </div>
-    <button class="next">&raquo;</button>
-  </section>
+      <!-- Componente Carrousel de Produtos -->
+      <section id="section-3" class="section-product-carrousel">
+        <button class="prev">&laquo;</button>
+        <div class="carrousel">
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 1">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 2">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 3">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 4">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 5">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 6">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 7">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 8">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar1.png" alt="Produto 9">
+            <h3>Nissan Kicks 2019</h3>
+            <p class="preco">R$ 98.930,00</p>
+            <p class="parcelamento">48x de R$ 2.062,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/ofertaCar3.png" alt="Produto 10">
+            <h3>Honda City 2024</h3>
+            <p class="preco">R$ 139.760,00</p>
+            <p class="parcelamento">48x de R$ 2912,00 s/juros</p>
+            <a href="./product.html">
+              <button class="comprar">COMPRAR</button>
+            </a>
+          </div>
+        </div>
+        <button class="next">&raquo;</button>
+      </section>
 
-  <div class="Infos">
-    <div class="InfoBox">     
-      <h2>Meios de Pagamento</h2>
-      <p>Parcelamos sua compra em até 48x sem juros em todos os cartões de crédito ou com até 5% de desconto à vista.</p>
-    </div>
-    <div class="InfoBox">
-      <h2>Nossos Contatos</h2>
-      <p>Cobertura em Todo o Território Nacional! Não importa onde você esteja.</p>
-      <p>(19)99999-9999</p>
-    </div>
-    <div class="InfoBox">
-      <h2>Atendimento</h2>
-      <p>Loja física Aberta das 08:00 às 20:00 Segunda a Sexta</p>
-      <p>(19)99999-9999</p>
-    </div>
-  </div>
+      <div class="Infos">
+        <div class="InfoBox">     
+          <h2>Meios de Pagamento</h2>
+          <p>Parcelamos sua compra em até 48x sem juros em todos os cartões de crédito ou com até 5% de desconto à vista.</p>
+        </div>
+        <div class="InfoBox">
+          <h2>Nossos Contatos</h2>
+          <p>Cobertura em Todo o Território Nacional! Não importa onde você esteja.</p>
+          <p>(19)99999-9999</p>
+        </div>
+        <div class="InfoBox">
+          <h2>Atendimento</h2>
+          <p>Loja física Aberta das 08:00 às 20:00 Segunda a Sexta</p>
+          <p>(19)99999-9999</p>
+        </div>
+      </div>
 
-  <div class="Footer">
-    <div class="FooterSection">
-        <h3>Institucional</h3>
-        <ul>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#">Fale Conosco</a></li>
-            <li><a href="#">Política de Troca</a></li>
-            <li><a href="#">Política de Privacidade</a></li>
-            <li><a href="#">Política de Envio</a></li>
-        </ul>
-    </div>
+      <div class="Footer">
+        <div class="FooterSection">
+            <h3>Institucional</h3>
+            <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">Política de Troca</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Política de Envio</a></li>
+            </ul>
+        </div>
 
-    <div class="FooterSection">
-        <h3>Ajuda</h3>
-        <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Termos de Uso</a></li>
-            <li><a href="#">Suporte</a></li>
-        </ul>
-    </div>
+        <div class="FooterSection">
+            <h3>Ajuda</h3>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </div>
 
-    <div class="FooterSection social">
-        <h3>Siga nossas redes sociais</h3>
-        <p>Acompanhe as novidades pelas nossas redes sociais</p>
-        <div class="social-icons">
-            <img src="images/facebook.png" alt="Facebook">
-            <img src="images/instagram.png" alt="Instagram">
-            <img src="images/whatsapp.png" alt="TikTok">
+        <div class="FooterSection social">
+            <h3>Siga nossas redes sociais</h3>
+            <p>Acompanhe as novidades pelas nossas redes sociais</p>
+            <div class="social-icons">
+                <img src="images/facebook.png" alt="Facebook">
+                <img src="images/instagram.png" alt="Instagram">
+                <img src="images/whatsapp.png" alt="TikTok">
+            </div>
         </div>
     </div>
-</div>
 
 
-  <div class="DireitosReservados">
-    <p>© Campinas, SP - 2024 Leonardo Albergoni Viana - Todos os direitos reservados.</p>
-  </div>
+      <div class="DireitosReservados">
+        <p>© Campinas, SP - 2024 Leonardo Albergoni Viana - Todos os direitos reservados.</p>
+      </div>
+  </body>
 </html>

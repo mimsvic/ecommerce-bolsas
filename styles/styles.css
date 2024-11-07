@@ -714,7 +714,7 @@ button.prev:hover, button.next:hover {
  }
 
  .freight_pricing {
-    background-color: #E7ECFF;
+    background-color: #ffffff;
     border: 1px solid #000;
     padding: 16px 16px;
     border-radius: 5px;
@@ -828,7 +828,7 @@ button.prev:hover, button.next:hover {
 
 .total_container {
     align-items: stretch;
-    border: 1px solid gold;
+    border: 1px solid #000;
     padding: 16px;
     border-radius: 5px;
     margin-bottom: 15px;
@@ -852,7 +852,7 @@ button.prev:hover, button.next:hover {
 }
 
 .total:nth-child(3){
-    border-top: 1px solid deeppink;
+    border-top: 1px solid #000;
     padding-top: 5px;
 }
 
