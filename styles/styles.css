@@ -374,6 +374,39 @@ button.prev:hover, button.next:hover {
     height: 100%;
 }
 
+/*Start - SOBRE NOS*/
+.conteudoSobreNos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  width: 1000px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+  background-color: #f5f7f9;
+  padding: 1%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 0;
+}
+/*End - SOBRE NOS*/
+
 /* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
 
 .container-flex {
@@ -453,7 +486,7 @@ button.prev:hover, button.next:hover {
 .product-card {
     display: flex;
     flex-direction: column;
-    background-color: chartreuse; 
+    background-color: #ffffff; 
     padding:16px;
     flex-grow: 0;
     flex-shrink: 0;
@@ -471,9 +504,9 @@ button.prev:hover, button.next:hover {
 .product-card-btn {
     width: 100%;
     padding: 5px 20px;
-    background-color: chartreuse;
+    background-color: #ffffff;
     border-radius: 15px;
-    color: brown;
+    color: #000;
 }
 
 .products-container {
