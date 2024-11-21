@@ -5,10 +5,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 98930.00, 
         descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/ofertaCar1.png",
-            img2:"./images/ofertaCar1-1.png",
-            img3:"./images/ofertaCar1-2.png",
-            img4:"./images/ofertaCar1-3.png",
+            img1:"./images/Car1kicks.png",
+            img2:"./images/Car2kicks.png",
+            img3:"./images/Car3kicks.png",
+            img4:"./images/Car4kicks.png",
 
         },
         categoriaProduto: 'Carro',
@@ -21,10 +21,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 98930.00, 
         descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/ofertaCar1.png",
-            img2:"./images/ofertaCar1-1.png",
-            img3:"./images/ofertaCar1-2.png",
-            img4:"./images/ofertaCar1-3.png",
+            img1:"./images/Car1pulse.png",
+            img2:"./images/Car2pulse.png",
+            img3:"./images/Car3pulse.png",
+            img4:"./images/Car4pulse.png",
 
         },
         categoriaProduto: 'Carro',
@@ -37,10 +37,10 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 98930.00, 
         descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/ofertaCar1.png",
-            img2:"./images/ofertaCar1-1.png",
-            img3:"./images/ofertaCar1-2.png",
-            img4:"./images/ofertaCar1-3.png",
+            img1:"./images/Car1cronos.png",
+            img2:"./images/Car2cronos.png",
+            img3:"./images/Car3cronos.png",
+            img4:"./images/Car4cronos.png",
 
         },
         categoriaProduto: 'Carro',
@@ -53,14 +53,14 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         preco: 98930.00, 
         descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/ofertaCar1.png",
-            img2:"./images/ofertaCar1-1.png",
-            img3:"./images/ofertaCar1-2.png",
-            img4:"./images/ofertaCar1-3.png",
+            img1:"./images/Car1hb20.png",
+            img2:"./images/Car2hb20.png",
+            img3:"./images/Car3hb20.png",
+            img4:"./images/Car4hb20.png",
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Novidades",
         exibirHome: true  
     },
     { 
@@ -76,7 +76,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Novidades",
         exibirHome: true   
     },
     { 
@@ -92,7 +92,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Novidades",
         exibirHome: true
     },
     { 
@@ -108,7 +108,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Novidades",
         exibirHome: true 
     },
     {
@@ -124,7 +124,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Novidades",
         exibirHome: true
     },
     {
@@ -140,7 +140,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Novidades",
         exibirHome: true
     },
     {
@@ -252,7 +252,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true 
     },
     {
@@ -268,7 +268,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
     {
@@ -284,7 +284,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Promocoes",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
     {
@@ -300,7 +300,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Novidades",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true      
     },
     {
@@ -316,7 +316,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Novidades",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
     {
@@ -332,7 +332,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Novidades",
+        classificacaoProduto:"Mais_Vendidos",
         exibirHome: true  
     },
     {
@@ -444,7 +444,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Novidades",
+        classificacaoProduto:"Promocoes",
         exibirHome: true      
     },
     {
@@ -460,7 +460,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Novidades",
+        classificacaoProduto:"Promocoes",
         exibirHome: true
     },
     {
@@ -476,7 +476,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Novidades",
+        classificacaoProduto:"Promocoes",
         exibirHome: true  
     },
     {
@@ -492,7 +492,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Promocoes",
         exibirHome: true  
     },
     { 
@@ -508,7 +508,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Promocoes",
         exibirHome: true   
     },
     { 
@@ -524,7 +524,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
 
         },
         categoriaProduto: 'Carro',
-        classificacaoProduto:"Mais_Vendidos",
+        classificacaoProduto:"Promocoes",
         exibirHome: true
     },
     { 
