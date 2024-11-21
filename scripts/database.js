@@ -1,129 +1,86 @@
 export const database = [ /* "Banco de dados" de produtos comercializados no site */
-    {/* 
+    {
         codigoProduto:1,
-        tituloProduto:"Furadeira e Parafusadeira de Impacto a Bateria Bosch com Carregador e Bateria 18V 1/2 GSB 180-Li Bivolt", 
-        preco: 620.00, 
-        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/products/prod01/img1.png",
-            img2:"./images/products/prod01/img2.png",
-            img3:"./images/products/prod01/img3.png",
-            img4:"./images/products/prod01/img4.png",
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
 
         },
-        categoriaProduto: 'Ferramentas',
+        categoriaProduto: 'Carro',
         classificacaoProduto:"Novidades",
-        exibirHome: true
-        */
+        exibirHome: true      
     },
-    {/*
+    {
         codigoProduto:2,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-    },
-        categoriaProduto: 'Ferramentas',
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
         classificacaoProduto:"Novidades",
         exibirHome: true
-        */
     },
     {
-        /*
         codigoProduto:3,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
 
         },
-        categoriaProduto: 'Ferramentas',
+        categoriaProduto: 'Carro',
         classificacaoProduto:"Novidades",
-        exibirHome: false
-        */
+        exibirHome: true  
     },
     {
-        /*
         codigoProduto:4,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
 
         },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Promocoes",
-        exibirHome: true
-        */
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true  
     },
-    {
-        /*
+    { 
         codigoProduto:5,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
 
         },
-        categoriaProduto: 'Ferramentas',
+        categoriaProduto: 'Carro',
         classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-        */
+        exibirHome: true   
     },
-    {
-        /*
+    { 
         codigoProduto:6,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-        */
-    },
-    {
-        /*
-        codigoProduto:7,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
-        imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
-
-        },
-        categoriaProduto: 'Ferramentas',
-        classificacaoProduto:"Mais_Vendidos",
-        exibirHome: true
-        */
-    },
-    {
-        codigoProduto:8,
         tituloProduto:"Nissan Kicks 2019", 
         preco: 98930.00, 
         descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
@@ -138,22 +95,484 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
     },
-    {
-        /*
-        codigoProduto:9,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
-        preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+    { 
+        codigoProduto:7,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
 
         },
-        categoriaProduto: 'Ferramentas',
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true 
+    },
+    {
+        codigoProduto:8,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:9,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:10,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true      
+    },
+    {
+        codigoProduto:11,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true
+    },
+    {
+        codigoProduto:12,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true  
+    },
+    {
+        codigoProduto:13,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true  
+    },
+    { 
+        codigoProduto:14,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true   
+    },
+    { 
+        codigoProduto:15,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
         classificacaoProduto:"Mais_Vendidos",
         exibirHome: true
-        */
+    },
+    { 
+        codigoProduto:16,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true 
+    },
+    {
+        codigoProduto:17,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:18,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:19,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true      
+    },
+    {
+        codigoProduto:20,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true
+    },
+    {
+        codigoProduto:21,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true  
+    },
+    {
+        codigoProduto:22,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true  
+    },
+    { 
+        codigoProduto:23,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true   
+    },
+    { 
+        codigoProduto:24,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+    { 
+        codigoProduto:25,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true 
+    },
+    {
+        codigoProduto:26,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:27,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:28,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true      
+    },
+    {
+        codigoProduto:29,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true
+    },
+    {
+        codigoProduto:30,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Novidades",
+        exibirHome: true  
+    },
+    {
+        codigoProduto:31,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true  
+    },
+    { 
+        codigoProduto:32,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true   
+    },
+    { 
+        codigoProduto:33,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: true
+    },
+    { 
+        codigoProduto:34,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true 
+    },
+    {
+        codigoProduto:35,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
+    },
+    {
+        codigoProduto:36,
+        tituloProduto:"Nissan Kicks 2019", 
+        preco: 98930.00, 
+        descricao:"O Nissan Kicks 2019 é um SUV compacto que combina estilo e eficiência, ideal para o uso urbano e viagens. Com motor 1.6 e câmbio automático CVT, oferece uma condução suave e econômica, além de um design arrojado com teto flutuante e interior espaçoso.",
+        imagemProduto: {
+            img1:"./images/ofertaCar1.png",
+            img2:"./images/ofertaCar1-1.png",
+            img3:"./images/ofertaCar1-2.png",
+            img4:"./images/ofertaCar1-3.png",
+
+        },
+        categoriaProduto: 'Carro',
+        classificacaoProduto:"Promocoes",
+        exibirHome: true
     },
 ]
