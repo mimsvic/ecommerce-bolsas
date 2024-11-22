@@ -447,8 +447,8 @@ button.prev:hover, button.next:hover {
 .product-card-title , 
 .product-card-reference,
 .product-card-price {
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 1.1em;
+    font-weight: 500;
     line-height:1.125em ;
     
 }
@@ -486,13 +486,14 @@ button.prev:hover, button.next:hover {
 .product-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #ffffff; 
     padding:16px;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 200px;
-    border-radius: 15px;
-    box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product-card img {
