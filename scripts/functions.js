@@ -22,8 +22,8 @@ export function loadProducts(productList, load) {
             10x de R$ ${valParcela} s/juros
           </h4>
         </div>
-        <a href="./product.html">
-        <button id="${produto.codigoProduto}" class="product-card-btn">COMPRAR</button>
+          <a href="./product.html">
+          <button id="${produto.codigoProduto}" class="product-card-btn">COMPRAR</button>
         </a>
       </div>`;
     load.innerHTML += html;

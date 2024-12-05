@@ -6,42 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <script type="module" src="./scripts/product.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="shortcut icon" type="imagex/png" href="./images/car.png">
   </head>
 
   <body>
     <header>
-      <div class="HeaderInfos">
-        <p>Campinas - SP</p>
-        <p>Localização - Av. John Boyd Dunlop, 858</p>
-        <p>Precisa de ajuda?</p>
+      <a href="#" class="logo"><i class='bx bxs-shopping-bag'></i>Bag</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#customers">Customers</a></li>
+      </ul>
+
+      <div class="header-icon">
+          <i class='bx bx-search' id="search-icon"></i>
+          <i class='bx bxs-cart-alt'><span>0</span></i>
       </div>
 
-      <div class="HeaderPesquisa">
-        <a href="index.html">
-          <img src="./images/logoBLV.jpg" class="Logo"/>
-        </a>
-
-        <div class="BarraDePesquisa">
-          <input type="text" name="search" id="search" placeholder="Qual o Carro dos seus Sonhos?" />
-        </div>
-
-        <div class="IconesPesquisa">
-          <img src="./images/coracaoLogo.png" alt="Coração" />
-          <img src="./images/perfil-de-usuario.png" alt="Perfil" />
-          <a href="checkout.html">
-            <img src="./images/carrinho.png" alt="Carrinho" />
-          </a>
-        </div>
+      <div class="search-box">
+          <input type="search" name="" id="" placeholder="Pesquise aqui..." />
       </div>
-
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="adm.html">Adm</a>
-        <a href="products.html">Products</a>
-        <a href="sobreNos.html">Sobre Nós</a>
-      </nav>
-    </header>
+  </header>
 
     <main class="product main-content container">
       <h2 class="product text-container page-title-small" id="product-category"></h2>

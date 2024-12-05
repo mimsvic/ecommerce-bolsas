@@ -1,136 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <!-- Links -->
-   <head>
+
+<head>
     <title>Belai Veículos</title>
-      <script type="module" src="./scripts/home.js" defer></script>
-      <link rel="stylesheet" href="./styles/styles.css" />
-      <meta charset="UTF-8"> 
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" type="imagex/png" href="./images/car.png">
-    <!-- Links -->
-  </head>
+    <script type="module" src="./scripts/home.js" defer></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./images/shopping-bag-solid-24.png">
+</head>
 
-  <body>
-      <div class="HeaderInfos">
-        <p>Campinas - SP</p>
-        <p>Localização - Av. John Boyd Dunlop, 858</p>
-        <p>Precisa de ajuda?</p>
-      </div>
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-shopping-bag'></i>Bag</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
 
-      <div class="HeaderPesquisa">
-        <a href="index.html">
-          <img src="./images/logoBLV.jpg" class="Logo"/>
-        </a>
-
-        <div class="BarraDePesquisa">
-          <input type="text" name="search" id="search" placeholder="Qual o Carro dos seus Sonhos?" />
+        <div class="header-icon">
+            <i class='bx bx-search' id="search-icon"></i>
+            <i class='bx bxs-cart-alt'><span>0</span></i>
         </div>
 
-        <div class="IconesPesquisa">
-          <img src="./images/coracaoLogo.png" alt="Coração" />
-          <img src="./images/perfil-de-usuario.png" alt="Perfil" />
-          <a href="checkout.html">
-            <img src="./images/carrinho.png" alt="Carrinho" />
-          </a>
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Pesquise aqui..." />
         </div>
-      </div>
+    </header>
 
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="adm.html">Adm</a>
-        <a href="products.html">Products</a>
-        <a href="sobreNos.html">Sobre Nós</a>
-      </nav>
-
-      <div class="slider">
-        <div class="banner">
-          <img src="images/sliderCarro1.jpg" />
-          <img src="images/sliderCarro2.jpg" />
-          <img src="images/sliderCarro3.jpg" />
-          <img src="images/sliderCarro4.jpg" />
-          <img src="images/sliderCarro5.jpg" />
-          <img src="images/sliderCarro6.jpg" />
-          <img src="images/sliderCarro7.jpg" />
-          <img src="images/sliderCarro8.jpg" />
+    <section class="home" id="home">
+        <div class="home-text">
+            <h3>Fashion Bag</h3>
+            <h1>Look <span> Stylish</span><br><span>Be</span> Stylish</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus doloremque deleniti quam ipsam ea,
+                voluptates assumenda sunt labore debitis soluta cum aut aliquid temporibus officiis, adipisci sit in
+                alias? Quos?</p>
+            <a href="#" class="btn">Buy Now</a>
         </div>
-      </div>
 
-      <div class="Ofertas">
+        <div class="home-img">
+            <img src="images/bolsa-home.png" alt="Fashion Bag" />
+        </div>
+    </section>
+
+    <div class="Ofertas">
         <div class="Oferta">
-          <img src="images/Car1kicks.png" alt="Oferta 1"/>
-          <p>Ofertas</p>
+            <img src="images/bolsa1.png" alt="Oferta 1" />
+            <p>Ofertas</p>
         </div>
         <div class="Oferta">
-          <img src="images/Car1pulse.png" alt="Oferta 2"/>
-          <p>Ofertas</p>
+            <img src="images/bolsa2.webp" alt="Oferta 2" />
+            <p>Ofertas</p>
         </div>
         <div class="Oferta">
-          <img src="images/Car1cronos.png" alt="Oferta 3"/>
-          <p>Ofertas</p>
+            <img src="images/bolsa3.webp" alt="Oferta 3" />
+            <p>Ofertas</p>
         </div>
         <div class="Oferta">
-          <img src="images/Car1hb20.png" alt="Oferta 4"/>
-          <p>Ofertas</p>
+            <img src="images/bolsa4.png" alt="Oferta 4" />
+            <p>Ofertas</p>
         </div>
-      </div>
+    </div>
 
-      <div class="bannerCar">
-        <img src="images/bannerCarro2.jpg"/>
-      </div>
+    <div class="bannerCar">
+        <img src="images/Annotation 2024-12-04 083643.png" alt="Banner Carro 2" />
+    </div>
 
-      <h1 id="novidades">Novidades</h1>
 
-      <section id="section-1" class="section-product-carrousel">
+    <h1 id="novidades">Novidades</h1>
+
+    <section id="section-1" class="section-product-carrousel">
         <button class="prev">&laquo;</button>
-        <div class="carrousel">
-
+        <div class="carrousel" id="carrousel-grid">
+            <!-- Adicionar produtos ou imagens aqui -->
         </div>
         <button class="next">&raquo;</button>
-      </section>
+    </section>
 
-      <div class="bannerCar">
-        <img src="images/bannerCarro3.jpg"/>
+    <div class="bannerCar">
+        <img src="images/banner-oficial.webp" alt="Banner Carro 3" />
+    </div>
+
+    <h1 id="mais-vendidos">Mais Vendidos</h1>
+
+    <h1 id="novidades">Novidades</h1>
+
+    <section id="section-2" class="section-product-carrousel">
+      <button class="prev">&laquo;</button>
+      <div class="carrousel">
+
       </div>
+      <button class="next">&raquo;</button>
+    </section>
 
-      <h1 id="novidades">Mais Vendidos</h1>
+    <h1 id="promocoes">Promoções</h1>
 
-      <section id="section-2" class="section-product-carrousel">
+    <section id="section-3" class="section-product-carrousel">
         <button class="prev">&laquo;</button>
         <div class="carrousel">
-
+            <!-- Adicionar produtos ou imagens aqui -->
         </div>
         <button class="next">&raquo;</button>
-      </section>
+    </section>
 
-      <h1 id="novidades">Promoções</h1>
-
-      <section id="section-3" class="section-product-carrousel">
-        <button class="prev">&laquo;</button>
-        <div class="carrousel">
-          
-        </div>
-        <button class="next">&raquo;</button>
-      </section>
-
-      <div class="Infos">
-        <div class="InfoBox">     
-          <h2>Meios de Pagamento</h2>
-          <p>Parcelamos sua compra em até 48x sem juros em todos os cartões de crédito ou com até 5% de desconto à vista.</p>
+    <div class="Infos">
+        <div class="InfoBox">
+            <h2>Meios de Pagamento</h2>
+            <p>Parcelamos sua compra em até 48x sem juros em todos os cartões de crédito ou com até 5% de desconto
+                à vista.</p>
         </div>
         <div class="InfoBox">
-          <h2>Nossos Contatos</h2>
-          <p>Cobertura em Todo o Território Nacional! Não importa onde você esteja.</p>
-          <p>(19)99999-9999</p>
+            <h2>Nossos Contatos</h2>
+            <p>Cobertura em Todo o Território Nacional! Não importa onde você esteja.</p>
+            <p>(19)99999-9999</p>
         </div>
         <div class="InfoBox">
-          <h2>Atendimento</h2>
-          <p>Loja física Aberta das 08:00 às 20:00 Segunda a Sexta</p>
-          <p>(19)99999-9999</p>
+            <h2>Atendimento</h2>
+            <p>Loja física Aberta das 08:00 às 20:00 Segunda a Sexta</p>
+            <p>(19)99999-9999</p>
         </div>
-      </div>
+    </div>
 
-      <div class="Footer">
+    <div class="Footer">
         <div class="FooterSection">
             <h3>Institucional</h3>
             <ul>
@@ -145,9 +140,9 @@
         <div class="FooterSection">
             <h3>Ajuda</h3>
             <ul>
-              <li><a href="sobreNos.html">FAQ</a></li>
-              <li><a href="sobreNos.html">Termos de Uso</a></li>
-              <li><a href="sobreNos.html">Suporte</a></li>
+                <li><a href="sobreNos.html">FAQ</a></li>
+                <li><a href="sobreNos.html">Termos de Uso</a></li>
+                <li><a href="sobreNos.html">Suporte</a></li>
             </ul>
         </div>
 
@@ -157,14 +152,15 @@
             <div class="social-icons">
                 <img src="images/facebook.png" alt="Facebook">
                 <img src="images/instagram.png" alt="Instagram">
-                <img src="images/whatsapp.png" alt="TikTok">
+                <img src="images/whatsapp.png" alt="WhatsApp">
             </div>
         </div>
     </div>
 
-
-      <div class="DireitosReservados">
+    <div class="DireitosReservados">
         <p>© Campinas, SP - 2024 Leonardo Albergoni Viana - Todos os direitos reservados.</p>
-      </div>
-  </body>
+    </div>
+
+</body>
+
 </html>
